@@ -83,4 +83,5 @@ try {
   fs.writeFileSync(resultsFile, JSON.stringify(openapi, null, 2));
 } catch (err) {
   console.error(err);
+  process.exit(1);
 }
