@@ -8,10 +8,10 @@ Source directory expected stucture:
 - `_base.json`: an OpenAPI definition used for cross-cutting data
 - a list of OpenAPI json files (their name must not be start with `_`)
 
-Usage:
+Basic usage:
 
 ```
-node index.js path/to/specs
+node apicat.js --base-dir path/to/specs --destination build/
 ```
 
 ## License

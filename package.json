@@ -1,0 +1,14 @@
+{
+  "name": "apicat",
+  "version": "0.0.0",
+  "description": "Create a single OpenAPI file from a directory",
+  "main": "apicat.js",
+  "scripts": {
+  },
+  "license": "Apache 2.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "yargs": "^17.2.1"
+  }
+}
